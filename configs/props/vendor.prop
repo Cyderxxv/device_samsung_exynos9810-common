@@ -39,6 +39,9 @@ persist.sys.sf.native_mode=2
 ro.hardware.egl=mali
 ro.hardware.vulkan=mali
 
+### Low RAM device
+ro.config.avoid_gfx_accel=true
+
 ### KEYSTORE
 ro.hardware.keystore=mdfpp
 
