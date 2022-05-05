@@ -59,6 +59,9 @@ vendor.sec.rild.libpath2=/vendor/lib64/libsec-ril-dsds.so
 debug.slsi_platform=1
 ro.vendor.winupdate=1
 
+### Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+
 ## SoC
 ro.soc.manufacturer=Samsung
 ro.soc.model "Exynos 9810"
