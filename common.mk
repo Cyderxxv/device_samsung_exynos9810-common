@@ -28,9 +28,9 @@ PRODUCT_ENFORCE_RRO_TARGETS += *
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.samsung
 
-# Livedisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.samsung-exynos
+# APNs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/apns/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
 
 # Audio
 PRODUCT_PACKAGES += \
