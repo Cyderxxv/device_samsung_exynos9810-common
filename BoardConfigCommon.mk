@@ -117,7 +117,7 @@ TARGET_VENDOR_PROP += $(COMMON_PATH)/configs/props/vendor.prop
 BOARD_HAS_DOWNLOAD_MODE := true
 BOARD_USES_FULL_RECOVERY_IMAGE := true
 TARGET_RECOVERY_PIXEL_FORMAT := "ABGR_8888"
-TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/configs/init/fstab.samsungexynos9810
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.samsungexynos9810
 
 ## Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
