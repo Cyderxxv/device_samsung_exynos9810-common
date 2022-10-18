@@ -344,7 +344,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libutils-v32
 
-
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
