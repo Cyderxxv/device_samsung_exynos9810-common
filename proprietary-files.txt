@@ -145,9 +145,9 @@ vendor/etc/sensor/lhd.conf
 -vendor/lib/hw/vulkan.mali.so|eae6e331f73caf11d93534eb093e791bfb093f26
 -vendor/lib64/hw/vulkan.mali.so|e163e88ac8801721922dfd1209cc719cc3a61763
 
-# Ion - N770FXXS7DUB1
--vendor/lib/libion_exynos.so|b4ec36fd10f1be7a3fa48968f254e69f
--vendor/lib64/libion_exynos.so|382e96e09fdc5b4537ca43a8c3eda362
+# Ion - N770FXXU8HVK5
+-vendor/lib/libion_exynos.so|c64c83c8826236c9264c8f2708756ea8
+-vendor/lib64/libion_exynos.so|ffc020ec8133431df5e1fcfefa80a34b
 
 # Keymaster
 -vendor/lib64/hw/keystore.mdfpp.so
