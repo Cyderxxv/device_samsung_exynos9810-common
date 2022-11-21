@@ -59,7 +59,7 @@ vendor/firmware/vts.bin
 
 # Camera dependencies
 -vendor/lib/libSEF.quram.so
--vendor/lib/libacryl_plugin_slsi_hdr10.so|efa81724e401417cfad3506f8c6fd2c1
+-vendor/lib/libacryl_plugin_slsi_hdr10.so|05037bf05526dc72b51e0282be39a5a7
 -vendor/lib/libcnn.so
 -vendor/lib/libcsc.so|98ec3ed36161f5bc72855d48323c2b88
 -vendor/lib/libgiantmscl.so|5b8a71f4685fd032a191d2a778ce3d97
@@ -71,7 +71,7 @@ vendor/firmware/vts.bin
 -vendor/lib/libuniplugin.so
 -vendor/lib/libvkmanager_vendor.so
 -vendor/lib64/libSEF.quram.so
--vendor/lib64/libacryl_plugin_slsi_hdr10.so|25d60501fe20b9add54e20b218b15365
+-vendor/lib64/libacryl_plugin_slsi_hdr10.so|bce0064ac6377e5ae765c97ff4c9d7e8
 -vendor/lib64/libcsc.so|93d93ad523f08769d500c72dbd4d75cd
 -vendor/lib64/libgiantmscl.so|1cefa72faeba037760d0c6361695c1d1
 -vendor/lib64/libhwjpeg.so
@@ -263,7 +263,7 @@ vendor/openvx/xml/_hifi_still_schedule.xml
 -vendor/lib/hw/hwcomposer.exynos9810.so|0fe6fcda72e549f0afb04863cbdf35420b71d914
 -vendor/lib/libExynosHWCService.so|96d7441a96ff38544a136ab34db0df5bb6288bb7
 -vendor/lib/libGrallocWrapper.so|aa35df72178fa249a6fbab5700980d2e
--vendor/lib/libacryl.so|8d88729095122797ca236da2f714b3a6
+-vendor/lib/libacryl.so|f81bfb06d16cbe48b97ab490d5d659d1
 -vendor/lib/libdrm.so|b007d52ea900b1cd486e4f4ab3773dd2
 -vendor/lib/libdrmresource.so|89b5ad323d2f77512ae0c7bd4fac1661
 -vendor/lib/libexynosdisplay.so|425a0ae03ff5050098b6be9d3c5a316f
@@ -275,7 +275,7 @@ vendor/openvx/xml/_hifi_still_schedule.xml
 -vendor/lib64/hw/hwcomposer.exynos9810.so|1b5d5b6bee0b1fd8f603edb3e9698507
 -vendor/lib64/libExynosHWCService.so|6b0c1ccee9ccc00c349fb9b9aeac3cd9
 -vendor/lib64/libGrallocWrapper.so|622ad3852f58c7730b54384bd3d6a3c3
--vendor/lib64/libacryl.so|14d3ce0d2ac0cfb6db83fa63acc4fe94
+-vendor/lib64/libacryl.so|0487c9d0e1f5f69592a3c09a8251f571
 -vendor/lib64/libdrm.so|01b0a906fbd286a22931406568749332
 -vendor/lib64/libdrmresource.so|4a31bbfec97aed6ea4125e898f6863d3
 -vendor/lib64/libexynosdisplay.so|2b16c674a3a80274431dc8c51dea4bf6
