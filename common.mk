@@ -263,10 +263,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     secril_config_svc
 
-# SamsungDoze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 # Sensors
 PRODUCT_PACKAGES += \
     android.frameworks.schedulerservice@1.0.vendor:64 \
