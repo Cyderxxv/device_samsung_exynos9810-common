@@ -84,7 +84,6 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 681574400
 
 BOARD_ROOT_EXTRA_FOLDERS := efs
 
-
 ## Platform
 BOARD_VENDOR := samsung
 TARGET_BOARD_PLATFORM := universal9810
@@ -115,6 +114,7 @@ VENDOR_SECURITY_PATCH := 2021-11-01
 # Sepolicy
 BOARD_SEPOLICY_TEE_FLAVOR := mobicore
 include device/samsung_slsi/sepolicy/sepolicy.mk
+include device/evolution/sepolicy/exynos/sepolicy.mk
 
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
