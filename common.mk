@@ -28,6 +28,10 @@ PRODUCT_ENFORCE_RRO_TARGETS += *
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.samsung
 
+# Livedisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service.samsung-exynos
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.effect@7.0-impl:32 \
