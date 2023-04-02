@@ -20,9 +20,13 @@ COMMON_PATH := device/samsung/exynos9810-common
 $(call inherit-product, vendor/samsung/exynos9810-common/exynos9810-common-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(COMMON_PATH)/overlay
+    $(COMMON_PATH)/overlay 
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
+
+# Touch HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.samsung
 
 # Audio
 PRODUCT_PACKAGES += \
