@@ -38,6 +38,7 @@ persist.sys.sf.color_saturation=1.0
 persist.sys.sf.native_mode=2
 ro.hardware.egl=mali
 ro.hardware.vulkan=mali
+ro.hwui.render_ahead=20
 
 ### Low RAM device
 ro.config.avoid_gfx_accel=true
