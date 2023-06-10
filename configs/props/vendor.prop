@@ -78,3 +78,6 @@ ro.frp.pst=/dev/block/persistent
 
 ### LOG
 persist.vendor.console.silent.config=1
+
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
