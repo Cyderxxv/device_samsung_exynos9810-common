@@ -1,2 +1,5 @@
 # Set the sample rate for the BT device
 persist.bluetooth.samsung_samplerate.supported=true
+
+# RCS
+persist.rcs.supported=1
