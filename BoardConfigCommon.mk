@@ -25,7 +25,8 @@ TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 include vendor/samsung/exynos9810-common/BoardConfigVendor.mk
 
 # APEX image
-OVERRIDE_TARGET_FLATTEN_APEX := true
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 
 ## Architecture
 TARGET_ARCH := arm64
