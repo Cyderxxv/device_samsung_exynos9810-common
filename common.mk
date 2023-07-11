@@ -173,15 +173,7 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service 
 
 # NFC
-PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service.samsung \
-    com.android.nfc_extras \
-    NfcNci \
-    Tag
-
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    $(COMMON_PATH)/configs/nfc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf
+$(call inherit-product-if-exists, device/samsung/exynos9810-common/nfc/device-nfc.mk)
 
 # Permissions
 PRODUCT_COPY_FILES += \

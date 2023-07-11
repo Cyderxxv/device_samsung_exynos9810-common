@@ -88,6 +88,9 @@ TARGET_KERNEL_LLVM_BINUTILS := false
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/vintf/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/configs/vintf/compatibility_matrix.xml
 
+# NFC
+include device/samsung/exynos9810-common/nfc/BoardConfig-nfc.mk
+
 # NGA
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
