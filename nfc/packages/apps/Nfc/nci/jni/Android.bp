@@ -1,0 +1,49 @@
+cc_library_shared {
+    name: "libnfc_sec_jni",
+
+    cflags: [
+        "-Wall",
+        "-Wextra",
+        "-Wno-unused-parameter",
+        "-Werror",
+
+        "-DNXP_UICC_ENABLE",
+        "-DNFC_SEC_NOT_OPEN_INCLUDED",
+    ],
+
+    srcs: ["**/*.cpp"],
+
+    include_dirs: [
+        "vendor/samsung_slsi/nfc/system/nfc/src/nfa/include",
+        "vendor/samsung_slsi/nfc/system/nfc/src/nfc/include",
+        "vendor/samsung_slsi/nfc/system/nfc/src/include",
+        "vendor/samsung_slsi/nfc/system/nfc/src/gki/ulinux",
+        "vendor/samsung_slsi/nfc/system/nfc/src/gki/common",
+        "vendor/samsung_slsi/nfc/system/nfc/utils/include",
+    ],
+
+    local_include_dirs: [
+        "extns/pn54x/inc",
+        "extns/pn54x/src/common",
+        "extns/pn54x/src/mifare",
+    ],
+
+    shared_libs: [
+        "libandroidicu",
+        "libnativehelper",
+        "libcutils",
+        "libutils",
+        "liblog",
+        "libnfc-sec",
+        "libchrome",
+        "libbase",
+    ],
+
+    static_libs: ["libxml2"],
+
+    product_variables: {
+        debuggable: {
+            cflags: ["-DDCHECK_ALWAYS_ON"],
+        },
+    },
+}

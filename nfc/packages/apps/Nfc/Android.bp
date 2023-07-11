@@ -1,0 +1,16 @@
+// NCI Configuration
+android_app {
+    overrides: ["NfcNci"],
+    name: "NfcSec",
+    srcs: [
+        "src/**/*.java",
+        "nci/**/*.java",
+    ],
+    platform_apis: true,
+    certificate: "platform",
+    jni_libs: ["libnfc_sec_jni"],
+    static_libs: ["androidx.legacy_legacy-support-v4"],
+    optimize: {
+        enabled: false,
+    },
+}
