@@ -24,9 +24,6 @@ TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 ## Inherit proprietary vendor configuration
 include vendor/samsung/exynos9810-common/BoardConfigVendor.mk
 
-# APEX image
-OVERRIDE_TARGET_FLATTEN_APEX := true
-
 ## Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -131,7 +128,7 @@ VENDOR_SECURITY_PATCH := 2021-11-01
 # Sepolicy
 BOARD_SEPOLICY_TEE_FLAVOR := mobicore
 include device/samsung_slsi/sepolicy/sepolicy.mk
-include device/derp/sepolicy/exynos/sepolicy.mk
+include device/evolution/sepolicy/exynos/sepolicy.mk
 
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
