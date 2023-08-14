@@ -18,3 +18,7 @@ ro.charger.enable_suspend=true
 
 ### WIFI Direct
 wifi.direct.interface=p2p-dev-wlan0
+
+# SkiaGL
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=threaded
